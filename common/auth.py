@@ -1,13 +1,9 @@
-# common/auth.py
 import json
 import os
 import logging
 
-# 7. Binder com Autenticação Simples
 def load_users(users_file="server/users.json"):
-    """Loads authorized users from a JSON file."""
     if not os.path.exists(users_file):
-        # Create a default if it doesn't exist
         default_users = {"admin": "password123", "client1": "syncpass"}
         try:
             with open(users_file, 'w') as f:
@@ -23,7 +19,7 @@ def load_users(users_file="server/users.json"):
             return json.load(f)
     except (IOError, json.JSONDecodeError) as e:
         logging.error(f"Error loading users file {users_file}: {e}")
-        return {} # Return empty dict on error
+        return {}
 
 def authenticate(username, password, user_db):
     """Checks if the username and password match the database."""
