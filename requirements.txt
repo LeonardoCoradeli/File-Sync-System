@@ -1,0 +1,17 @@
+# This project uses only modules from the Python 3.12.x standard library.
+# No external packages need to be installed via pip.
+#
+# Standard library modules used include:
+# - http.server: For the basic HTTP server implementation.
+# - socketserver: For creating a multi-threaded server (ThreadingMixIn).
+# - threading: For running the client-side monitor and server-side request handling.
+# - json: For serializing/deserializing data sent over HTTP.
+# - os: For file path operations (checking existence, getting modification time - although hash is used here).
+# - hashlib: For calculating file hashes to detect changes (versioning).
+# - logging: For recording events on both client and server (including sync.log).
+# - urllib.request, urllib.error: For making HTTP requests from the client stub.
+# - sys: For basic command-line argument handling or input/output.
+# - getpass: For securely reading the password on the client.
+# - enum: For defining communication protocol modes.
+# - uuid: For generating unique transaction IDs (useful for RR/RRA).
+# - time: For pausing execution (e.g., in the sync monitor loop).

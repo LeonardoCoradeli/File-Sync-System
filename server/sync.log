@@ -1,0 +1,114 @@
+2025-05-02 08:14:00,870 - INFO - Starting RMI simulation server on port 8000...
+2025-05-02 08:15:40,155 - INFO - Attempt - IP: 127.0.0.1, User: testeusar, Method: check_master_version, Mode: RR, TID: 16cb9fe0-d8d7-49be-87b7-84b6a270e62c
+2025-05-02 08:15:40,156 - WARNING - Failed Auth - IP: 127.0.0.1, User: testeusar, TID: 16cb9fe0-d8d7-49be-87b7-84b6a270e62c
+2025-05-02 08:15:57,233 - INFO - Attempt - IP: 127.0.0.1, User: testeusar, Method: check_master_version, Mode: RR, TID: 0c7752e6-88c4-4759-b930-ee4cc223035f
+2025-05-02 08:15:57,234 - WARNING - Failed Auth - IP: 127.0.0.1, User: testeusar, TID: 0c7752e6-88c4-4759-b930-ee4cc223035f
+2025-05-02 08:16:28,630 - INFO - Attempt - IP: 127.0.0.1, User: client1, Method: check_master_version, Mode: RR, TID: 041dabcd-9ca5-4214-80ff-6635fb2ac00b
+2025-05-02 08:16:28,642 - INFO - Checked master version (hash): e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-05-02 08:16:28,643 - INFO - Success - IP: 127.0.0.1, User: client1, Method: check_master_version, Result Keys: ['version', 'transaction_id'], TID: 041dabcd-9ca5-4214-80ff-6635fb2ac00b
+2025-05-02 08:16:30,702 - INFO - Attempt - IP: 127.0.0.1, User: client1, Method: receive_ack, Mode: R, TID: 18ec1d5e-6e48-45cd-a43b-8421714c950d
+2025-05-02 08:16:30,703 - INFO - Received acknowledgment for transaction: 041dabcd-9ca5-4214-80ff-6635fb2ac00b
+2025-05-02 08:16:30,703 - INFO - Success - IP: 127.0.0.1, User: client1, Method: receive_ack, Result Keys: ['status'], TID: 18ec1d5e-6e48-45cd-a43b-8421714c950d
+2025-05-02 08:16:47,756 - INFO - Attempt - IP: 127.0.0.1, User: client1, Method: check_master_version, Mode: RR, TID: a3416262-a079-447c-8a12-fe0e5d1a5f35
+2025-05-02 08:16:47,758 - INFO - Checked master version (hash): e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-05-02 08:16:47,758 - INFO - Success - IP: 127.0.0.1, User: client1, Method: check_master_version, Result Keys: ['version', 'transaction_id'], TID: a3416262-a079-447c-8a12-fe0e5d1a5f35
+2025-05-02 08:16:49,820 - INFO - Attempt - IP: 127.0.0.1, User: client1, Method: receive_ack, Mode: R, TID: 13a64ae5-16f4-48a5-bf1a-41852d676d15
+2025-05-02 08:16:49,821 - INFO - Received acknowledgment for transaction: a3416262-a079-447c-8a12-fe0e5d1a5f35
+2025-05-02 08:16:49,821 - INFO - Success - IP: 127.0.0.1, User: client1, Method: receive_ack, Result Keys: ['status'], TID: 13a64ae5-16f4-48a5-bf1a-41852d676d15
+2025-05-02 08:17:06,890 - INFO - Attempt - IP: 127.0.0.1, User: client1, Method: check_master_version, Mode: RR, TID: 5170b8fb-a290-49cf-84b4-0acb26157794
+2025-05-02 08:17:06,891 - INFO - Checked master version (hash): e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-05-02 08:17:06,891 - INFO - Success - IP: 127.0.0.1, User: client1, Method: check_master_version, Result Keys: ['version', 'transaction_id'], TID: 5170b8fb-a290-49cf-84b4-0acb26157794
+2025-05-02 08:17:08,960 - INFO - Attempt - IP: 127.0.0.1, User: client1, Method: receive_ack, Mode: R, TID: 90811077-2776-43c0-a979-b07340f7bb36
+2025-05-02 08:17:08,961 - INFO - Received acknowledgment for transaction: 5170b8fb-a290-49cf-84b4-0acb26157794
+2025-05-02 08:17:08,961 - INFO - Success - IP: 127.0.0.1, User: client1, Method: receive_ack, Result Keys: ['status'], TID: 90811077-2776-43c0-a979-b07340f7bb36
+2025-05-02 08:17:26,019 - INFO - Attempt - IP: 127.0.0.1, User: client1, Method: check_master_version, Mode: RR, TID: 2c3d1eac-ddad-4436-86e9-70fec5cde8f3
+2025-05-02 08:17:26,034 - INFO - Checked master version (hash): 63ba949647ac001686b9de554a322bc7d288f032e7c0bd2506db0ee588c73198
+2025-05-02 08:17:26,034 - INFO - Success - IP: 127.0.0.1, User: client1, Method: check_master_version, Result Keys: ['version', 'transaction_id'], TID: 2c3d1eac-ddad-4436-86e9-70fec5cde8f3
+2025-05-02 08:17:28,103 - INFO - Attempt - IP: 127.0.0.1, User: client1, Method: receive_ack, Mode: R, TID: 9239679c-a6b8-4813-8014-89fe30e2ebc9
+2025-05-02 08:17:28,104 - INFO - Received acknowledgment for transaction: 2c3d1eac-ddad-4436-86e9-70fec5cde8f3
+2025-05-02 08:17:28,105 - INFO - Success - IP: 127.0.0.1, User: client1, Method: receive_ack, Result Keys: ['status'], TID: 9239679c-a6b8-4813-8014-89fe30e2ebc9
+2025-05-02 08:17:30,169 - INFO - Attempt - IP: 127.0.0.1, User: client1, Method: get_file_content, Mode: RR, TID: a531227e-30d4-49b7-bc8d-9fb858f2eec4
+2025-05-02 08:17:30,170 - INFO - Read content from server/master.txt
+2025-05-02 08:17:30,170 - INFO - Success - IP: 127.0.0.1, User: client1, Method: get_file_content, Result Keys: ['content', 'transaction_id'], TID: a531227e-30d4-49b7-bc8d-9fb858f2eec4
+2025-05-02 08:17:32,252 - INFO - Attempt - IP: 127.0.0.1, User: client1, Method: receive_ack, Mode: R, TID: 77d5135d-b026-4ef3-904e-87deedf1a174
+2025-05-02 08:17:32,253 - INFO - Received acknowledgment for transaction: a531227e-30d4-49b7-bc8d-9fb858f2eec4
+2025-05-02 08:17:32,254 - INFO - Success - IP: 127.0.0.1, User: client1, Method: receive_ack, Result Keys: ['status'], TID: 77d5135d-b026-4ef3-904e-87deedf1a174
+2025-05-02 08:17:49,317 - INFO - Attempt - IP: 127.0.0.1, User: client1, Method: check_master_version, Mode: RR, TID: 253a90ed-c9e4-4431-ac3d-cd783a9f0017
+2025-05-02 08:17:49,318 - INFO - Checked master version (hash): 63ba949647ac001686b9de554a322bc7d288f032e7c0bd2506db0ee588c73198
+2025-05-02 08:17:49,318 - INFO - Success - IP: 127.0.0.1, User: client1, Method: check_master_version, Result Keys: ['version', 'transaction_id'], TID: 253a90ed-c9e4-4431-ac3d-cd783a9f0017
+2025-05-02 08:17:51,374 - INFO - Attempt - IP: 127.0.0.1, User: client1, Method: receive_ack, Mode: R, TID: d42f7c1f-1f9a-4668-ad11-a2be5b549632
+2025-05-02 08:17:51,375 - INFO - Received acknowledgment for transaction: 253a90ed-c9e4-4431-ac3d-cd783a9f0017
+2025-05-02 08:17:51,375 - INFO - Success - IP: 127.0.0.1, User: client1, Method: receive_ack, Result Keys: ['status'], TID: d42f7c1f-1f9a-4668-ad11-a2be5b549632
+2025-05-02 08:18:08,442 - INFO - Attempt - IP: 127.0.0.1, User: client1, Method: check_master_version, Mode: RR, TID: 7307fff6-ca79-4573-8a80-10f43378f588
+2025-05-02 08:18:08,443 - INFO - Checked master version (hash): 63ba949647ac001686b9de554a322bc7d288f032e7c0bd2506db0ee588c73198
+2025-05-02 08:18:08,444 - INFO - Success - IP: 127.0.0.1, User: client1, Method: check_master_version, Result Keys: ['version', 'transaction_id'], TID: 7307fff6-ca79-4573-8a80-10f43378f588
+2025-05-02 08:18:10,494 - INFO - Attempt - IP: 127.0.0.1, User: client1, Method: receive_ack, Mode: R, TID: c88e08d6-d2fb-488b-85f9-5dcea19f7223
+2025-05-02 08:18:10,495 - INFO - Received acknowledgment for transaction: 7307fff6-ca79-4573-8a80-10f43378f588
+2025-05-02 08:18:10,495 - INFO - Success - IP: 127.0.0.1, User: client1, Method: receive_ack, Result Keys: ['status'], TID: c88e08d6-d2fb-488b-85f9-5dcea19f7223
+2025-05-02 08:18:27,555 - INFO - Attempt - IP: 127.0.0.1, User: client1, Method: check_master_version, Mode: RR, TID: 0db0a279-eeda-4d42-bdc0-f15820753338
+2025-05-02 08:18:27,556 - INFO - Checked master version (hash): 63ba949647ac001686b9de554a322bc7d288f032e7c0bd2506db0ee588c73198
+2025-05-02 08:18:27,556 - INFO - Success - IP: 127.0.0.1, User: client1, Method: check_master_version, Result Keys: ['version', 'transaction_id'], TID: 0db0a279-eeda-4d42-bdc0-f15820753338
+2025-05-02 08:18:29,587 - INFO - Attempt - IP: 127.0.0.1, User: client1, Method: receive_ack, Mode: R, TID: 00d1f6f2-5dcf-4ac8-a5bd-e024e89e0fe1
+2025-05-02 08:18:29,587 - INFO - Received acknowledgment for transaction: 0db0a279-eeda-4d42-bdc0-f15820753338
+2025-05-02 08:18:29,587 - INFO - Success - IP: 127.0.0.1, User: client1, Method: receive_ack, Result Keys: ['status'], TID: 00d1f6f2-5dcf-4ac8-a5bd-e024e89e0fe1
+2025-05-02 08:18:46,617 - INFO - Attempt - IP: 127.0.0.1, User: client1, Method: check_master_version, Mode: RR, TID: 8a3442fb-475d-4316-99d3-878704d51fcb
+2025-05-02 08:18:46,619 - INFO - Checked master version (hash): 63ba949647ac001686b9de554a322bc7d288f032e7c0bd2506db0ee588c73198
+2025-05-02 08:18:46,619 - INFO - Success - IP: 127.0.0.1, User: client1, Method: check_master_version, Result Keys: ['version', 'transaction_id'], TID: 8a3442fb-475d-4316-99d3-878704d51fcb
+2025-05-02 08:18:48,678 - INFO - Attempt - IP: 127.0.0.1, User: client1, Method: receive_ack, Mode: R, TID: def3005c-7c6e-4a4a-8107-dd115ea6c12b
+2025-05-02 08:18:48,679 - INFO - Received acknowledgment for transaction: 8a3442fb-475d-4316-99d3-878704d51fcb
+2025-05-02 08:18:48,679 - INFO - Success - IP: 127.0.0.1, User: client1, Method: receive_ack, Result Keys: ['status'], TID: def3005c-7c6e-4a4a-8107-dd115ea6c12b
+2025-05-02 08:19:05,906 - INFO - Attempt - IP: 127.0.0.1, User: client1, Method: check_master_version, Mode: RR, TID: 6a75fcb1-6322-4e5a-9e14-ae9ef4185f40
+2025-05-02 08:19:05,907 - INFO - Checked master version (hash): 63ba949647ac001686b9de554a322bc7d288f032e7c0bd2506db0ee588c73198
+2025-05-02 08:19:05,907 - INFO - Success - IP: 127.0.0.1, User: client1, Method: check_master_version, Result Keys: ['version', 'transaction_id'], TID: 6a75fcb1-6322-4e5a-9e14-ae9ef4185f40
+2025-05-02 08:19:07,971 - INFO - Attempt - IP: 127.0.0.1, User: client1, Method: receive_ack, Mode: R, TID: a365b572-6617-400b-9b78-997eb4dfaa85
+2025-05-02 08:19:07,971 - INFO - Received acknowledgment for transaction: 6a75fcb1-6322-4e5a-9e14-ae9ef4185f40
+2025-05-02 08:19:07,972 - INFO - Success - IP: 127.0.0.1, User: client1, Method: receive_ack, Result Keys: ['status'], TID: a365b572-6617-400b-9b78-997eb4dfaa85
+2025-05-02 08:19:25,045 - INFO - Attempt - IP: 127.0.0.1, User: client1, Method: check_master_version, Mode: RR, TID: ddd33001-0bba-458c-a278-8744f436b029
+2025-05-02 08:19:25,046 - INFO - Checked master version (hash): 63ba949647ac001686b9de554a322bc7d288f032e7c0bd2506db0ee588c73198
+2025-05-02 08:19:25,046 - INFO - Success - IP: 127.0.0.1, User: client1, Method: check_master_version, Result Keys: ['version', 'transaction_id'], TID: ddd33001-0bba-458c-a278-8744f436b029
+2025-05-02 08:19:27,105 - INFO - Attempt - IP: 127.0.0.1, User: client1, Method: receive_ack, Mode: R, TID: b2d16443-e402-4f5c-a5b2-9347ec34a174
+2025-05-02 08:19:27,106 - INFO - Received acknowledgment for transaction: ddd33001-0bba-458c-a278-8744f436b029
+2025-05-02 08:19:27,106 - INFO - Success - IP: 127.0.0.1, User: client1, Method: receive_ack, Result Keys: ['status'], TID: b2d16443-e402-4f5c-a5b2-9347ec34a174
+2025-05-02 08:19:44,167 - INFO - Attempt - IP: 127.0.0.1, User: client1, Method: check_master_version, Mode: RR, TID: 5a03d2a8-a919-406d-96c8-6667a3c361ac
+2025-05-02 08:19:44,169 - INFO - Checked master version (hash): 63ba949647ac001686b9de554a322bc7d288f032e7c0bd2506db0ee588c73198
+2025-05-02 08:19:44,169 - INFO - Success - IP: 127.0.0.1, User: client1, Method: check_master_version, Result Keys: ['version', 'transaction_id'], TID: 5a03d2a8-a919-406d-96c8-6667a3c361ac
+2025-05-02 08:19:46,230 - INFO - Attempt - IP: 127.0.0.1, User: client1, Method: receive_ack, Mode: R, TID: 05fddb26-437f-46cf-b3c2-2a90112389dd
+2025-05-02 08:19:46,230 - INFO - Received acknowledgment for transaction: 5a03d2a8-a919-406d-96c8-6667a3c361ac
+2025-05-02 08:19:46,230 - INFO - Success - IP: 127.0.0.1, User: client1, Method: receive_ack, Result Keys: ['status'], TID: 05fddb26-437f-46cf-b3c2-2a90112389dd
+2025-05-02 08:20:03,309 - INFO - Attempt - IP: 127.0.0.1, User: client1, Method: check_master_version, Mode: RR, TID: 752496ac-ff30-4738-bf05-4aa49f683efa
+2025-05-02 08:20:03,310 - INFO - Checked master version (hash): 63ba949647ac001686b9de554a322bc7d288f032e7c0bd2506db0ee588c73198
+2025-05-02 08:20:03,311 - INFO - Success - IP: 127.0.0.1, User: client1, Method: check_master_version, Result Keys: ['version', 'transaction_id'], TID: 752496ac-ff30-4738-bf05-4aa49f683efa
+2025-05-02 08:20:05,372 - INFO - Attempt - IP: 127.0.0.1, User: client1, Method: receive_ack, Mode: R, TID: 5aa52aeb-535a-4dd9-988c-2102082bb817
+2025-05-02 08:20:05,372 - INFO - Received acknowledgment for transaction: 752496ac-ff30-4738-bf05-4aa49f683efa
+2025-05-02 08:20:05,373 - INFO - Success - IP: 127.0.0.1, User: client1, Method: receive_ack, Result Keys: ['status'], TID: 5aa52aeb-535a-4dd9-988c-2102082bb817
+2025-05-02 08:20:22,456 - INFO - Attempt - IP: 127.0.0.1, User: client1, Method: check_master_version, Mode: RR, TID: 80386a35-6977-458d-8482-4cf0ea494ff4
+2025-05-02 08:20:22,458 - INFO - Checked master version (hash): 63ba949647ac001686b9de554a322bc7d288f032e7c0bd2506db0ee588c73198
+2025-05-02 08:20:22,458 - INFO - Success - IP: 127.0.0.1, User: client1, Method: check_master_version, Result Keys: ['version', 'transaction_id'], TID: 80386a35-6977-458d-8482-4cf0ea494ff4
+2025-05-02 08:20:24,519 - INFO - Attempt - IP: 127.0.0.1, User: client1, Method: receive_ack, Mode: R, TID: f6bccfd0-66e5-4a9e-8f66-0ac2a3b03785
+2025-05-02 08:20:24,520 - INFO - Received acknowledgment for transaction: 80386a35-6977-458d-8482-4cf0ea494ff4
+2025-05-02 08:20:24,520 - INFO - Success - IP: 127.0.0.1, User: client1, Method: receive_ack, Result Keys: ['status'], TID: f6bccfd0-66e5-4a9e-8f66-0ac2a3b03785
+2025-05-02 08:20:41,593 - INFO - Attempt - IP: 127.0.0.1, User: client1, Method: check_master_version, Mode: RR, TID: e0c16040-66d4-4598-8da1-07a965c27521
+2025-05-02 08:20:41,594 - INFO - Checked master version (hash): 63ba949647ac001686b9de554a322bc7d288f032e7c0bd2506db0ee588c73198
+2025-05-02 08:20:41,594 - INFO - Success - IP: 127.0.0.1, User: client1, Method: check_master_version, Result Keys: ['version', 'transaction_id'], TID: e0c16040-66d4-4598-8da1-07a965c27521
+2025-05-02 08:20:43,629 - INFO - Attempt - IP: 127.0.0.1, User: client1, Method: receive_ack, Mode: R, TID: 1da01022-2f25-4e1e-8a26-f077f36bb629
+2025-05-02 08:20:43,630 - INFO - Received acknowledgment for transaction: e0c16040-66d4-4598-8da1-07a965c27521
+2025-05-02 08:20:43,631 - INFO - Success - IP: 127.0.0.1, User: client1, Method: receive_ack, Result Keys: ['status'], TID: 1da01022-2f25-4e1e-8a26-f077f36bb629
+2025-05-02 08:21:00,718 - INFO - Attempt - IP: 127.0.0.1, User: client1, Method: check_master_version, Mode: RR, TID: e2cc341e-89f7-4a5e-aa8f-13cc1f6e0df0
+2025-05-02 08:21:00,718 - INFO - Checked master version (hash): 63ba949647ac001686b9de554a322bc7d288f032e7c0bd2506db0ee588c73198
+2025-05-02 08:21:00,719 - INFO - Success - IP: 127.0.0.1, User: client1, Method: check_master_version, Result Keys: ['version', 'transaction_id'], TID: e2cc341e-89f7-4a5e-aa8f-13cc1f6e0df0
+2025-05-02 08:21:02,782 - INFO - Attempt - IP: 127.0.0.1, User: client1, Method: receive_ack, Mode: R, TID: 885a9327-4d5f-4f8c-ba5f-789b4f155124
+2025-05-02 08:21:02,782 - INFO - Received acknowledgment for transaction: e2cc341e-89f7-4a5e-aa8f-13cc1f6e0df0
+2025-05-02 08:21:02,783 - INFO - Success - IP: 127.0.0.1, User: client1, Method: receive_ack, Result Keys: ['status'], TID: 885a9327-4d5f-4f8c-ba5f-789b4f155124
+2025-05-02 08:21:19,850 - INFO - Attempt - IP: 127.0.0.1, User: client1, Method: check_master_version, Mode: RR, TID: 6f0ccc9b-7dba-4c83-b4d6-3a52898fe543
+2025-05-02 08:21:19,851 - INFO - Checked master version (hash): 63ba949647ac001686b9de554a322bc7d288f032e7c0bd2506db0ee588c73198
+2025-05-02 08:21:19,851 - INFO - Success - IP: 127.0.0.1, User: client1, Method: check_master_version, Result Keys: ['version', 'transaction_id'], TID: 6f0ccc9b-7dba-4c83-b4d6-3a52898fe543
+2025-05-02 08:21:21,914 - INFO - Attempt - IP: 127.0.0.1, User: client1, Method: receive_ack, Mode: R, TID: 27d6e7b4-8f77-4d55-a7ee-97d47fdea725
+2025-05-02 08:21:21,915 - INFO - Received acknowledgment for transaction: 6f0ccc9b-7dba-4c83-b4d6-3a52898fe543
+2025-05-02 08:21:21,915 - INFO - Success - IP: 127.0.0.1, User: client1, Method: receive_ack, Result Keys: ['status'], TID: 27d6e7b4-8f77-4d55-a7ee-97d47fdea725
+2025-05-02 08:21:38,994 - INFO - Attempt - IP: 127.0.0.1, User: client1, Method: check_master_version, Mode: RR, TID: fb0c4d0e-d624-410a-8690-83b4b4580a9b
+2025-05-02 08:21:38,996 - INFO - Checked master version (hash): 63ba949647ac001686b9de554a322bc7d288f032e7c0bd2506db0ee588c73198
+2025-05-02 08:21:38,996 - INFO - Success - IP: 127.0.0.1, User: client1, Method: check_master_version, Result Keys: ['version', 'transaction_id'], TID: fb0c4d0e-d624-410a-8690-83b4b4580a9b
+2025-05-02 08:21:41,058 - INFO - Attempt - IP: 127.0.0.1, User: client1, Method: receive_ack, Mode: R, TID: 1ac07fa3-d5d9-4e8d-805c-3eae821f31ce
+2025-05-02 08:21:41,059 - INFO - Received acknowledgment for transaction: fb0c4d0e-d624-410a-8690-83b4b4580a9b
+2025-05-02 08:21:41,060 - INFO - Success - IP: 127.0.0.1, User: client1, Method: receive_ack, Result Keys: ['status'], TID: 1ac07fa3-d5d9-4e8d-805c-3eae821f31ce
+2025-05-02 08:21:53,734 - INFO - Server stopped by user.
