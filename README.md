@@ -1,4 +1,19 @@
-# Sistema de Sincronização de Arquivos RMI (Biblioteca Padrão do Python)
+# Sistema Distribuído de Sincronização de Arquivos (Python RMI) 🔄🖧
+
+> **Projeto acadêmico desenvolvido para a disciplina de Sistemas Distribuídos do curso de Bacharelado em Ciência da Computação — UNESP.**
+
+---
+
+## 📚 Contexto Acadêmico e Objetivo
+
+Este projeto implementa um sistema distribuído cliente-servidor de **sincronização automática de arquivos (arquitetura Master/Slave)** utilizando o paradigma de **Invocação de Método Remoto (RMI / RPC)** exclusivamente com a biblioteca padrão do Python.
+
+### Conceitos de Sistemas Distribuídos Trabalhados:
+* **Comunicação Cliente-Servidor e Stubs Remotos (`client/stub.py`, `interface/remote_interface.py`):** Abstração de chamadas de rede como invocações locais.
+* **Autenticação e Controle de Sessão (`common/auth.py`):** Validação de credenciais antes da sincronização de estado.
+* **Consistência e Monitoramento Contínuo (`client/sync_monitor.py`):** Verificação periódica de integridade via *checksum/hash* e replicação automática de atualizações do arquivo *Master* para os nós *Slaves*.
+
+---
 
 ## Pré-requisitos
 
